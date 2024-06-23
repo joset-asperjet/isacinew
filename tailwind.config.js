@@ -31,11 +31,11 @@ module.exports = {
 
       colors: {
         colorCodGray: "#191919",
-        colorOrangyRed: "#FE330A",
+        colorOrangyRed: "#FD1277",
         colorLinenRuffle: "#EFEAE3",
         colorViolet: "#321CA4",
         colorGreen: "#39FF14",
-        customPurple: '#5028DD',
+        customPurple: '#0EB6F5',
 
       },
     },
