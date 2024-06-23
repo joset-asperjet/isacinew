@@ -13,8 +13,8 @@ JOS.init({
   timingFunction: "ease", // JOS global timing function | Values :  'ease', 'ease-in', 'ease-out', 'ease-in-out', 'linear', 'step-start', 'step-end', 'steps()', 'cubic-bezier()', 'my-custom-timing-function'
   //mirror : false, // Set whether the element should animate back when scrolled out of view | Values :  'true', 'false'
   threshold: 0, // Set gloabal the threshold for the element to be visible | Values :  0-1
-  delay: 0.5, // Set global the delay for the animation to start | Values :  0,1,2,3,4,5
-  duration: 0.7, // Set global the duration for the animation playback | Values :  flota : 0-1 & int : 0,1,2,3,4,5
+  delay: 0.3, // Set global the delay for the animation to start | Values :  0,1,2,3,4,5
+  duration: 0.3, // Set global the duration for the animation playback | Values :  flota : 0-1 & int : 0,1,2,3,4,5
 
   // startVisible: "true", // Set whether the element should animate when the page is loaded | Values :  'true', 'false' || MS : 0-10000
   scrollDirection: "down", // Set the scroll direction for the element to be visible | Values :  'up', 'down', 'none'
