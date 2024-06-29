@@ -97,6 +97,7 @@
   @apply text-black hover:text-colorOrangyRed;
 }
 
+
 .testimonial-nav {
   @apply relative mt-8 xxl:mt-0 justify-center xxl:justify-normal xxl:absolute -bottom-[50] left-1/2 z-[2] flex gap-x-6 xxl:bottom-6 -translate-x-1/2 xxl:translate-x-0;
 }

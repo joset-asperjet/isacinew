@@ -1882,8 +1882,33 @@ h5 {
 
 .bg-colorViolet {
   --tw-bg-opacity: 1;
-  background-color: rgb(50 28 164 / var(--tw-bg-opacity));
+  background-color: rgb(4 19 40 / var(--tw-bg-opacity));
 }
+
+.bg-colorBlack {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+
+
+.bg-colorPink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 24 117 / var(--tw-bg-opacity));
+}
+
+
+
+.from-custom-blue {
+  background-color: #243A51; /* Color base para navegadores que no soportan gradientes */
+  background-image: linear-gradient(to top, #243A51, #243A51);
+}
+
+.to-custom-blue {
+  background-color: #243A51; /* Color base para navegadores que no soportan gradientes */
+  background-image: linear-gradient(to top, #243A51, #243A51);
+}
+
 
 .bg-gray-600 {
   --tw-bg-opacity: 1;
@@ -1942,11 +1967,12 @@ h5 {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[\#5636C7\] {
-  --tw-gradient-from: #5636C7 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(86 54 199 / 0) var(--tw-gradient-to-position);
+.from-\[\#041328\] {
+  --tw-gradient-from: #041328 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(4 19 40 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+
 
 .from-\[rgba\(255\2c 255\2c 255\2c \.1\)\] {
   --tw-gradient-from: rgba(255,255,255,.1) var(--tw-gradient-from-position);
@@ -2491,6 +2517,13 @@ h5 {
 .text-colorOrangyRed {
   --tw-text-opacity: 1;
   color: rgb(254 51 10 / var(--tw-text-opacity));
+}
+
+
+
+.text-colorSalmon {
+  --tw-text-opacity: 1;
+  color: rgb(253 18  119 / var(--tw-text-opacity));
 }
 
 .text-customPurple {
@@ -3113,6 +3146,12 @@ h5 {
   border-color: rgb(254 51 10 / var(--tw-border-opacity));
 }
 
+.after\:border-colorAfterPer::after {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-color: rgb(252 15 117 / var(--tw-border-opacity));
+}
+
 .after\:bg-black::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -3140,8 +3179,9 @@ h5 {
 .after\:bg-colorViolet::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(50 28 164 / var(--tw-bg-opacity));
+  background-color: rgb(4, 19, 40, var(--tw-bg-opacity)); /* Color RGB con opacidad variable */
 }
+
 
 .after\:bg-white::after {
   content: var(--tw-content);
